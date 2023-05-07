@@ -1,6 +1,3 @@
-
-
-
 // git is a version control tool which is used for tracking and managing changes to the software code.there are three types of version control:
 
 Local version control system => in this a local database is located in your computer and every file change is stored in patch.
