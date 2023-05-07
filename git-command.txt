@@ -1,5 +1,24 @@
+
+
+
+// git is a version control tool which is used for tracking and managing changes to the software code.there are three types of version control:
+
+Local version control system => in this a local database is located in your computer and every file change is stored in patch.
+Centralised verisoin control system =>in this there is single server that contains all the file verisons.and this helps to have multiple clients to acces the file simultaneously
+Distributed version control system =>in this everyone who are collaborating on a project owns a local copy of the whole project i.e owns their own local database with their own complete history.
+
+
+// Github is basically a hosting service designed for git repository and it is totally based on cloud and you share it and givr access to others so that they can make changes in it
+
+
+// some git commands and their functionality :
+
 git status => will tell you about state of working directory and staging area
 touch filename.txt => will create a new file only if doesn't already exist
 git commit -m "message" => it performs a commit and -m "message" add  message.
-git log => it will tell repository history
+git log => it will tell repository history and also will tell you who commited in the file and when it was committed
+git add . => will add the files and you have to do it every time when you commit the changes in the file
+git config --global user.email "name of email" => this will change the current email author and --globally will do it for all the repository
+git config --global user.name "name of user" => will change the username globally
+
 
