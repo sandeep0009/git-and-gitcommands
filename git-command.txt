@@ -14,11 +14,50 @@ Distributed version control system =>in this everyone who are collaborating on a
 // some git commands and their functionality :
 
 git status => will tell you about state of working directory and staging area
+
 touch filename.txt => will create a new file only if doesn't already exist
+
 git commit -m "message" => it performs a commit and -m "message" add  message.
+
 git log => it will tell repository history and also will tell you who commited in the file and when it was committed
+
 git add . => will add the files and you have to do it every time when you commit the changes in the file
+
 git config --global user.email "name of email" => this will change the current email author and --globally will do it for all the repository
+
 git config --global user.name "name of user" => will change the username globally
 
 
+//push: basically we push our code to github where we can host our code.
+
+*Note:= Before pushing anything on the github we need a ssh key for that otherwise it wont able to push the file on the github.
+
+
+Push and pull commands :
+
+git push -u origin main => this will push your code or file on th github
+
+for pull request we will go on any repository on github and will go in documention and it will describe all the commands for pull request
+
+git diff "filename.txt"=> will tell us what changes were made before
+
+git diff --stagged "filename.txt" => if you wana see any changes in stagged file
+
+git checkout "filename"=> will reset the file to the previous commit were made.
+
+git checkout . => will reset all the files which were changed before the commit.
+
+
+git add -A => stages all the file
+
+git add . =>stages all new and modified  files without deleted ones
+
+git add -u => stages modified and deleted without new ones
+
+
+// Cloning in git =>  cloning is basically means creating a copy of particalur repository in your system or a parituclar location you want.
+
+
+
+git clone "url of particular repository"=> this will clone a particular file or repository in particular folder of your system.
+ 
