@@ -10,7 +10,7 @@ Distributed version control system =>in this everyone who are collaborating on a
 // Github is basically a hosting service designed for git repository and it is totally based on cloud and you share it and givr access to others so that they can make changes in it
 
 
-<<<<<<< HEAD
+
 //Steps involve in the useuage of below commands :
 
 1=> create a folder.
@@ -26,9 +26,6 @@ Distributed version control system =>in this everyone who are collaborating on a
 
 
 // some git commands and their functionality :
-=======
-// some git commands and thier functionality :
->>>>>>> 455526a809d54e91c5e6298ad458800be5be859e
 
 git init => this will intitalise the git repository and will create a .git file .
 
