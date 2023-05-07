@@ -13,6 +13,8 @@ Distributed version control system =>in this everyone who are collaborating on a
 
 // some git commands and their functionality :
 
+git init => this will intitalise the git repository and will create a .git file .
+
 git status => will tell you about state of working directory and staging area
 
 touch filename.txt => will create a new file only if doesn't already exist
@@ -61,3 +63,31 @@ git add -u => stages modified and deleted without new ones
 
 git clone "url of particular repository"=> this will clone a particular file or repository in particular folder of your system.
  
+
+
+.gitignore => will ignore the file which you want not to be uploaded on github
+
+
+// Branches in git => basically it means new separate version of main repository.
+ 
+there are 5 kind of branches in git in which two are primary branches that is git flow is determine by them which are main and develop. and three are supporting branches which depend on purpose of branch i.e feautre ,release and hotfix:
+
+
+command for branches :-
+
+
+git branch => this will show number of branches in the file and also will show which branch you are in.
+
+git branch "name of file" => this will create a new file of same content
+
+git checkout "branch name" => this will change from the current branch to type name.
+
+git push origin "branch name" => this will push the content on the new branch.
+
+git merge "branch name" => this will merge the new branch and main branch.
+
+git push -u origin master => this will push the commit you made.
+
+git branch -d "branch name" => this will delete the branch from your local system
+
+git push origin --delete "branch name" => this will delete the branch from the github repository.
