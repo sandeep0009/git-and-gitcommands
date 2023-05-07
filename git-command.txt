@@ -8,6 +8,20 @@ Distributed version control system =>in this everyone who are collaborating on a
 // Github is basically a hosting service designed for git repository and it is totally based on cloud and you share it and givr access to others so that they can make changes in it
 
 
+//Steps involve in the useuage of below commands :
+
+1=> create a folder.
+
+2=> run git init
+
+3=> if you want to create a new file in the folder then you can use touch command and can create a new file
+
+4=> after all the work is finished you just need to copy the ssh url from the github and then you have to run the command i.e git remote add origin "url copied"
+
+5=> git push -u origin main/master
+
+
+
 // some git commands and their functionality :
 
 git init => this will intitalise the git repository and will create a .git file .
